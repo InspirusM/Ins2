@@ -1,0 +1,40 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "Akari",
+  "version": "1.5.1",
+  "description": "A simple Discord bot written in discord.js.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "anime-scraper": "^3.1.1",
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.5.0",
+    "canvas-constructor": "^3.0.0",
+    "discord.js": "^11.5.1",
+    "express": "^4.16.4",
+    "fs": "^0.0.2",
+    "node-superfetch": "^0.1.9",
+    "parse-ms": "^2.0.0",
+    "quick.db": "^6.3.2",
+    "random-js": "^2.1.0",
+    "enmap": "^4.8.6",
+    "better-sqlite-pool": "^0.2.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
